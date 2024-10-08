@@ -1,0 +1,60 @@
+{
+    "status": "ok",
+    "totalResults": 10,
+    "articles": [
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "What is mpox, what countries is it in and how do you catch it?",
+            "description": "Mpox, which used to be called monkeypox, is declared a global public health emergency.",
+            "url": "https://www.bbc.co.uk/news/articles/cxww2dxr3mko",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/b435/live/098ef3b0-5a7d-11ef-997c-711b7066309d.jpg",
+            "publishedAt": "2024-08-15T07:22:18.9122505Z",
+            "content": "Mpox disease is caused by the monkeypox virus. This is from the same group of viruses as smallpox but is much less harmful.\r\nThe virus was originally transmitted from animals to humans but now also p… [+1725 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Protests in China as delivery rider kneels before security guard",
+            "description": "Many are calling for better protection for gig workers, while the police have urged the public to be kind.",
+            "url": "https://www.bbc.co.uk/news/articles/cx2n8x6y6lzo",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/521c/live/a09db810-5ac6-11ef-a811-53ddfe511e57.jpg",
+            "publishedAt": "2024-08-15T07:22:17.113963Z",
+            "content": "The incident on Monday drew huge crowds of angry delivery riders to the building in downtown Hangzhou, leading the police to dispatch dozen of officers to manage the situation - including from the sp… [+1951 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Melbourne orchestra admits ‘error’ on Gaza comments",
+            "description": "Jayson Gillham premiered a piece that was dedicated to the journalists of Gaza.",
+            "url": "https://www.bbc.co.uk/news/articles/c7v5zgelqjyo",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/b119/live/2df569d0-5ac5-11ef-a811-53ddfe511e57.jpg",
+            "publishedAt": "2024-08-15T06:37:14.9579508Z",
+            "content": "Now the entire concert, due to be held at Melbourne Town Hall, has been cancelled due to safety concerns.\r\nThe MSO says they are trying to reschedule the performance.\r\nAt Sundays concert, which was h… [+2354 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Budget airline Wizz Air launches 'all you can fly' annual deal",
+            "description": "Wizz Air  was named the worst airline for UK flight delays for the third year in a row in June.",
+            "url": "https://www.bbc.co.uk/news/articles/c0k4grpjrylo",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/5e94/live/925c3a80-5aab-11ef-8cea-99b2009b26a3.jpg",
+            "publishedAt": "2024-08-15T05:22:14.614543Z",
+            "content": "The discounted price for the yearly pass will be available until 16 August and then rise to 599 euro.\r\nFrom September, subscribers will be able to travel to destinations in Europe, North Africa, the … [+1566 chars]"
+        }
+       
+        
+    ]
+}
