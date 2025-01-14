@@ -1,6 +1,7 @@
 // Spinner.js
 import React from 'react';
 import loading from './loading.gif'; 
+import '../style.css';
 
  const Spinner =()=>  {
  

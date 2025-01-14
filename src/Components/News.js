@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import NewsItem from './NewsItem';
 import Spinner from './spinner';
 import InfiniteScroll from "react-infinite-scroll-component";
+import '../style.css'
 
 const News = (props) => {
   const [articles, setArticles] = useState([]);
@@ -14,7 +15,7 @@ const News = (props) => {
   };
 
   useEffect(() => {
-    document.title = `${capitalizeFirstLetter(props.category)} - NewsMonkey`;
+    document.title = `${capitalizeFirstLetter(props.category)} - UniNews`;
     updateNews();
     // eslint-disable-next-line
   }, []); // The empty array ensures this effect runs only once, similar to componentDidMount.
@@ -48,7 +49,7 @@ const News = (props) => {
   return (
     <div className="container my-3">
       <h1 className='text-center' style={{ margin: '35px 0px',marginTop:'90px' }}>
-        NewsMonkey - Top {capitalizeFirstLetter(props.category)} Headlines
+        UniNews - Top {capitalizeFirstLetter(props.category)} Headlines
       </h1>
       {loading && <Spinner />}
       <InfiniteScroll

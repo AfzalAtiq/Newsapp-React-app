@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa;
+    background: #333; /* Dark background */
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #ffffff !important;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ffd700 !important; /* Gold hover effect */
+  }
+  
+  /* Navbar Icons */
+  .navbar-nav .nav-link i {
+    margin-right: 5px; /* Spacing between icon and text */
+    font-size: 1rem;
+  }
+  
+  /* Spinner Styles */
+  .spinner img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  /* NewsItem Styles */
+  .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .card-text small {
+    font-size: 0.8rem;
+    color: #555;
+  }
+  
+  /* Buttons */
+  .btn-dark {
+    background-color: #343a40;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-dark:hover {
+    background-color: #495057;
+  }
+  
+  /* Buttons with Icons */
+  .btn i {
+    margin-right: 5px;
+  }
+  
+  /* Badge Styles */
+  .badge {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    text-transform: uppercase;
+  }
+  
+  .badge i {
+    margin-right: 5px;
+  }
+  
+  /* Customize Icon Colors */
+  .navbar .nav-link i,
+  .badge i,
+  .btn i {
+    color: #fff; /* Match the text color */
+  }
+  
+  /* Headline Styles */
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  /* Infinite Scroll Container */
+  .container {
+    margin: 20px auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .col-md-4 {
+    flex: 1 1 calc(33.333% - 15px);
+  }
+  
+  /* Utility Classes */
+  .text-center {
+    text-align: center;
+  }
+  
+  .my-3 {
+    margin: 1rem 0;
+  }
+  
+  .my-3 img {
+    display: inline-block;
+  }
+  
