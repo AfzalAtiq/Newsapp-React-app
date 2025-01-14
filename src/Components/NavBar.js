@@ -1,13 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../style.css';
+import logo from '../Components/logo.png'; // Import the logo image
 
 const NavBar = () => {
   return (
     <div>
       <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/">
+          {/* Logo and title */}
+          <Link className="navbar-brand d-flex align-items-center" to="/">
+            <img
+              src={logo}
+              alt="Logo"
+              style={{ width: '60px', height: '60px', marginRight: '10px' }}
+            />
             UniNews
           </Link>
           <button
